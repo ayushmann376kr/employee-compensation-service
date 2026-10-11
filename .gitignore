@@ -1,0 +1,25 @@
+# Local Azure Functions settings can contain secrets
+local.settings.json
+
+# Dependencies
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+*.log
+
+# Environment files / secrets
+.env
+.env.*
+!.env.example
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Build / test outputs
+coverage/
+dist/
